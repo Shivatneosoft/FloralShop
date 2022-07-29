@@ -1,0 +1,57 @@
+@import url('http://fonts.cdnfonts.com/css/black-chancery');
+#header{
+    text-align: center;
+    background-color: pink;
+    color: blue;
+    font-size: 120px;
+    height: 170px;
+    font-family: "BlackChancery";
+}
+
+.card{
+    background-color: purple;
+    height: 230px;
+    width: 180px;
+    align-items: center;
+    border-radius: 20px;
+    text-align: center;
+    border: 1px solid white;
+}
+
+.flowerimage{
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.flowerbutton{
+    width: 60%;
+}
+
+.vspace{
+    height: 10px;
+}
+
+#navitem{
+    padding: 20px;
+    margin: 5px solid black;
+    color: white;
+    background-color: #c72ead;
+    border-radius: 10px;
+}
+.navbar{
+    background-color: purple;
+    text-align: center;
+    height: 60px;
+}
+
+.minititle{
+    font-family: "BlackChancery";
+    text-align: center;
+    font-size: larger;
+    color: blue;
+}
+
+.info{
+    text-align: center;
+    font-size: 40px;
+}

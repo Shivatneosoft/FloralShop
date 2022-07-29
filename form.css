@@ -1,0 +1,17 @@
+.order{
+    border: 5px solid purple;
+    border-radius: 20px;
+    padding: 30px 0px 30px 50px;
+    color: blue;
+    background-color: pink;
+    margin-left: 450px;
+    margin-right: 450px;
+}
+
+.back{
+    background: url(Flower\ to\ sell/background.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}

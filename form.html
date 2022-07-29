@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div class="back" >
+        <div class="order">
+            <div>
+                <form action="Submit.html" id="regForm">
+                    <table >
+                        <caption class="header"> Personal Detail</caption>
+                        <tr><td> <label for="fname">Name:</label></td>
+                            <td><input id="fname" name="myName"  ></td></tr>
+                        <tr><td></td><td id="error1"></td></tr>
+            
+                        <tr><td> <label for="age">Age: </label></td>
+                            <td> <input type="number"  id="age"  ></td></tr>
+                        <tr><td></td><td id="error2"></td></tr>
+                        
+                        <tr><td><label for="contact">Mobile Number: </label></td>
+                            <td><input id="contact"  type="tel" ></td></tr>
+                        <tr><td></td><td id="error3"></td></tr>
+                        
+                        <tr><td> <label for="mail">Email Id: </label></td>
+                            <td><input type="email"  id="mail"   ></td></tr>
+                        <tr><td></td><td id="error4"></td></tr>
+            
+                        <tr><td class="header" colspan="2" style="text-align: center;">
+                            Delivery Detail
+                        </td></tr>
+            
+                        <tr><td> <label for="build">Building or House Name: </label></td>
+                            <td><input type="text"  id="build" ></td></tr>
+                        <tr><td></td><td id="error5"></td></tr>
+            
+                        <tr><td> <label for="area">Area Name: </label></td>
+                            <td><input type="text"  id="area" ></td></tr>
+                        <tr><td></td><td id="error6"></td></tr>
+            
+                        <tr><td> <label for="city">City Name: </label></td>
+                            <td><input type="text"  id="city" ></td></tr>
+                        <tr><td></td><td id="error7"></td></tr>
+            
+                        <tr><td> <label for="district">District Name: </label></td>
+                            <td><input type="text"  id="district" ></td></tr>
+                        <tr><td></td><td id="error8"></td></tr>
+            
+                        <tr><td><label for="pincode">Pin Code: </label></td>
+                            <td><input id="pincode"  type="pincode" ></td></tr>
+                        <tr><td></td><td id="error9"></td></tr>
+            
+                        <tr><td><label for="state">State: </label></td>
+                            <td><select id="state">
+                                <option value="Happy">Select State</option>
+                                <option value='Andhra Pradesh'>Andhra Pradesh</option>
+                                <option value='Arunachal Pradesh'>Arunachal Pradesh</option>
+                                <option value='Assam'>Assam</option>
+                                <option value='Bihar'>Bihar</option>
+                                <option value='Chhattisgarh'>Chhattisgarh</option>
+                                <option value='Goa'>Goa</option>
+                                <option value='Gujarat'>Gujarat</option>
+                                <option value='Haryana'>Haryana</option>
+                                <option value='Himachal Pradesh'>Himachal Pradesh</option>
+                                <option value='Jharkhand'>Jharkhand</option>
+                                <option value='Karnataka'>Karnataka</option>
+                                <option value='Kerala'>Kerala</option>
+                                <option value='Madhya Pradesh'>Madhya Pradesh</option>
+                                <option value='Maharashtra'>Maharashtra</option>
+                                <option value='Manipur'>Manipur</option>
+                                <option value='Meghalaya'>Meghalaya</option>
+                                <option value='Mizoram'>Mizoram</option>
+                                <option value='Nagaland'>Nagaland</option>
+                                <option value='Odisha'>Odisha</option>
+                                <option value='Punjab'>Punjab</option>
+                                <option value='Rajasthan'>Rajasthan</option>
+                                <option value='Sikkim'>Sikkim</option>
+                                <option value='Tamil Nadu'>Tamil Nadu</option>
+                                <option value='Telangana'>Telangana</option>
+                                <option value='Tripura'>Tripura</option>
+                                <option value='Uttar'>Uttar</option>
+                                <option value='Uttarakhand'>Uttarakhand</option>
+                                <option value='West Bengal'>West Bengal</option>
+                            </select></td></tr>
+                        <tr><td></td><td id="error10"></td></tr>
+            
+                        <tr><td class="header" colspan="2" style="text-align: center;">
+                            Order Detail
+                        </td></tr>
+            
+                        <tr><td><label for="flower">Flower: </label></td>
+                            <td>
+                                <select id="flower">
+                                    <option value="none">Select Flower</option>
+                                    <option value='daisy'>Daisy</option>
+                                    <option value='lily'>Lily</option>
+                                    <option value='rose'>Rose</option>
+                                    <option value='sunflower'>Sunflower</option>
+                                    <option value='jasmine'>Jasmine</option>
+                                    <option value='lotus'>Lotus</option>
+                                    <option value='orchid'>Orchid</option>
+                                    <option value='Delphinium'>Delphinium</option>
+                                    <option value='Geranium'>Geranium</option>
+                                    <option value='Chrysanthemum'>Chrysanthemum</option>
+                                    <option value='Buttercup'>Buttercup</option>
+                                    <option value='Azalea'>Azalea</option>
+                                    <option value='Aster'>Aster</option>
+                                    <option value='Marigold'>Marigold</option>
+                                    <option value='Dahlia'>Dahlia</option>
+                                    <option value='Peony'>Peony</option>
+                                    <option value='Gerbera Daisy'>Gerbera Daisy</option>
+                                    <option value='Carnation'>Carnation</option>
+                                    <option value='Gardenia'>Gardenia</option>
+                                    <option value='Calla Lily'>Calla Lily</option>
+                                    <option value='Alstroemeria'>Alstroemeria</option>
+                                </select>
+                            </tr>
+                        <tr><td></td><td id="error11"></td></tr>
+            
+                        <tr><td> <label for="quantity">Quantity: </label></td>
+                            <td> <input type="number"  id="quantity" onkeyup="total()"></td></tr>
+                        <tr><td></td><td id="error12"></td></tr>
+            
+                        <tr><td colspan="2">
+                            Your Delievery cost will be 200/-Rs
+                        </td></tr>
+            
+                        <tr><td id="FC"></td></tr>
+            
+                        <tr><td id="TC"></td></tr>
+            
+                        <tr><td></td><td> <input type="submit" value="Submit" > <input type="reset"></td></tr> 
+                    </table>
+                    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> <!--minified-->
+                    <script src="Validation.js"></script>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
